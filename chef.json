@@ -1,0 +1,33 @@
+
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "help me cook",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "what do you do",
+                        "what can you help me with",
+                        "help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "exit",
+                        "quit",
+                        "I am finished",
+                        "I am done"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
